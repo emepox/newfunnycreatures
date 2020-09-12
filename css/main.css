@@ -1,0 +1,1116 @@
+/* FONTS */
+
+@font-face {
+    font-family: freckleface;
+    src: url(../fonts/freckleface-regular.ttf);
+  }
+
+  @font-face {
+    font-family: roboto;
+    src: url(../fonts/Roboto-Regular.ttf);
+  }
+
+/* BASIC */
+
+#wrapper {
+    font-family: roboto, sans-serif;
+    font-size: 15px;
+    color: darkslategray;
+    /* max-width: 1000px;
+    margin: 0 auto; */
+}
+
+p {
+    color: #594057;
+}
+
+h1 {
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+    color: #8daf73;
+}
+
+h2 {
+    font-size: 1.2rem;
+    color: #594057;
+    padding: 10px 0;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+h3 {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+h4 {
+    margin: 10px 0;
+}
+
+h1#logo {
+    font-family: freckleface;
+}
+
+h1:not(#logo) {
+    padding: 10px 0;
+}
+
+
+
+img {
+    width: 100%;
+}
+
+
+.fondo-logo {
+    background-color:#594057;
+}
+
+.fondo-nav {
+    background-color: #8daf73;;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.map {
+    height: 400px;
+    width: 100%;
+  }
+
+
+/* NAVEGACIÓN */
+
+.migas {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+    font-size: 0.7rem;
+}
+
+
+.pre-navigation {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    color: #8daf73;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    background: #594057;
+}
+
+.pre-navigation div:nth-child(2) {
+    display: flex;
+}
+
+.pre-navigation span {
+    padding: 0px 5px;
+}
+
+.contenedor {
+    margin: 15px;
+}
+
+.smaller {
+    font-size: smaller;
+}
+
+
+
+/* MEGA MENU */
+
+.navigation {
+    display:flex; 
+    padding: 10px;
+    max-width: 80%;
+
+}
+
+.nav-toggle{
+    width:55px;
+    height: 27px;
+    padding:6px 2px 0;
+    display:none;
+    cursor:pointer;
+}
+
+.nav-search-button{
+    cursor:pointer;
+    border-bottom: 1px solid gainsboro;
+}
+
+
+.nav-menu>li>a {
+    font-size: 0.8rem;
+}
+
+.nav-header {
+    margin-right: 5px;
+}
+
+.navigation-portrait .nav-search{
+    flex-basis: 70%;
+}
+
+.align-to-right{
+    float:right;
+}
+
+.megamenu-list-title {
+    border-bottom: 1px solid gainsboro;
+}
+
+.nav-menu>li.focus>a{background: #e2f3d3;}
+
+.glide__slide a {
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.glide_slides > li {
+    height: 23rem;
+}
+
+/* PRODUCTOS */
+
+
+
+.product-slider h1, .product-slider h2, .product-slider h3 {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.product-slider article {
+    padding: 5px;
+    border: 1px gainsboro solid;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: auto;
+}
+
+.product-slider h3, .precios {
+    text-align: center;
+}
+
+.estrellitas {
+    text-align: center;
+    margin: 5px 0;
+}
+
+.precios {
+    padding: 10px 0;
+}
+
+.precios > p {
+    padding: 5px 0;
+    display: inline-block;
+    margin-right: 2px;
+}
+
+.precios > span {
+    margin: 5px;
+}
+
+.precio-tachado {
+    font-size: smaller;
+    text-decoration: line-through;
+    opacity: 0.7;
+}
+
+.precio-rebajado {
+    color: red;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.boton-carrito, .boton-accion, .boton {
+    border-radius: 2px;
+    padding: 10px;
+    cursor: pointer;
+    text-align: center;
+    max-width: 500px;
+   
+}
+
+.boton-carrito, .boton {
+    background: #8daf73;
+    width: 100%;
+}
+
+.boton-accion {
+    background: #594057;
+    color: gainsboro;
+}
+
+.glide-prod1, .glide-prod2, .glide-prod3 {
+    position: relative;
+}
+
+.img-container {
+    text-align: center;
+    margin: auto;
+}
+
+.product-slider img {
+    max-width: 50%;
+    padding: 10px;
+}
+
+
+/* Botón añadir carrito */
+.carrito {
+    position: relative;
+}
+
+.num-carrito {
+    position: absolute;
+    right: -7px;
+    bottom: 0;
+}
+
+.product-added {
+    display: none;
+    width: 100%;
+    background: #594057;
+    border: 4px solid #a4afa3;
+    color: gainsboro;
+    text-align: center;
+    padding: 20px 0;
+    position: sticky;
+    bottom: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+/* ANUNCIOS */
+
+.anuncio {
+	border: 5px gainsboro solid;
+	box-sizing: border-box;
+    text-align: center;
+    padding: 10px;
+ 
+}
+
+.anuncio > div {
+    background: gainsboro;
+}
+
+.anuncio a > div {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+    padding: 10px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.anuncio h2 {
+    font-weight: normal;
+}
+
+
+/* MONSTRUOPEDIA */
+
+
+#monstruopedia ul {
+    display: flex;
+    flex-wrap: wrap;
+    border: 5px gainsboro solid;
+}
+
+#monstruopedia li {
+    line-height: 20px;
+    flex-basis: 50%;
+    text-align: center;
+    border-bottom: 1px gainsboro solid;
+}
+
+#monstruopedia > div:first-child {
+    background: gainsboro;
+    padding: 5px 0;
+
+}
+
+/* BLOG */
+
+#blog article {
+    margin-bottom: 10px;
+}
+
+#blog figure {
+    position: relative;
+    margin-bottom: 5px;
+
+}
+
+#blog figcaption {
+    position: absolute;
+    padding: 10px;
+    background: #594057;
+    color: gainsboro;
+}
+
+#blog button {
+    padding: 10px 0;
+}
+
+
+
+/* TEXTO HOME */
+
+#texto-home {
+    padding-bottom: 15px;
+}
+
+#texto-home p {
+    margin: 10px 0;
+}
+
+#texto-home h3 {
+    padding: 10px 0;
+    font-size: 1.2rem;
+}
+
+#texto-home > div {
+    padding: 15px;
+    float: left;
+}
+
+/* FOOTER */
+
+footer {
+    background: #594057;
+}
+
+.newsletter {
+    background: gainsboro;
+}
+
+.form-content > div {
+    padding: 10px 0;
+}
+
+footer .form-content > div:nth-of-type(3) input {
+    width: 70%;
+}
+
+
+.footer-links {
+
+    color: #a4afa3;
+    line-height: 30px;
+}
+
+
+.footer-links li:first-child > p, .footer-links li:first-child {
+    color: #646f67;
+    font-weight: bold;
+}
+
+.footer-links .listas-links {
+    margin: 10px 0;
+}
+
+.form-content p > span, #contacto-aviso {
+    visibility: hidden;
+    color: red;
+}
+
+#copyright {
+   background: #423140;
+
+}
+
+#copyright > p {
+    margin-bottom: 0px;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 0.7rem;
+    line-height: 15px;
+    color: #646f67;
+}
+
+#copyright span {
+    font-size: 0.9rem;
+}
+
+
+/* PÁGINA CONTACTO */
+
+#contacto h1 {
+    text-align: center;
+}
+
+#contacto section {
+    margin: 10px 0;
+}
+
+#contacto form {
+    margin: 20px 0;
+    text-align: center;
+}
+
+#contacto p {
+    margin: 10px 0;
+}
+
+#contacto iframe {
+    width: 100%;
+}
+
+#contacto .material-icons {
+    font-size: 0.9rem;
+}
+
+/* Formulario */
+
+
+#contacto legend {
+   margin-bottom: 20px;
+   font-size: 1.3rem;
+}
+
+#contacto fieldset input, #contacto fieldset textarea {
+   width: 99%;
+   margin-top: 2px;
+   box-sizing: border-box;
+   height: 40px;
+}
+
+#contacto textarea {
+   resize: none;
+   min-height: 154px;
+}
+
+#contacto button {
+   margin-top: 10px;
+   width: 100%;
+}
+
+
+/* PÁGINA DE PRODUCTO */
+
+
+#pagina-producto .info-producto > p:nth-of-type(2) {
+    margin: 10px 0;
+}
+
+#pagina-producto .info-producto .estrellitas {
+    text-align: left;
+}
+
+
+#foto-producto {
+    max-width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+.variedades-producto .lista-carrito {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	margin: 5px 0;
+	box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.18);
+    padding: 10px 2px;
+    height: 80px;
+    border: 2px solid transparent;
+
+}
+
+.variedades-producto .lista-carrito > div {
+	flex-wrap: wrap;
+
+}
+
+.variedades-producto .lista-carrito > div:nth-child(1) {
+	flex-basis: 10%;
+	border-right: 1px solid gainsboro;
+    text-align: center;
+}
+
+.variedades-producto .lista-carrito > div:nth-child(2) {
+    flex-basis: 48%;
+}
+
+.variedades-producto .lista-carrito > div:nth-child(3) {
+	flex-basis: 30%;
+    text-align: center;
+}
+
+.variedades-producto .lista-carrito .precio-normal {
+	text-align: center;
+}
+
+.variedades-producto .lista-carrito .precio-rebajado {
+    font-size: medium;
+    margin-top: 5px;
+}
+
+
+.variedades-producto .lista-carrito > div:nth-of-type(2) p:first-of-type {
+	color: #8daf73;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.variedades-producto .lista-carrito button {
+	margin-top: 5px;
+}
+
+
+.descripcion p {
+    margin: 10px 0;
+}
+
+
+
+
+/* Opiniones */
+
+.opiniones .material-icons {
+    font-size: 0.8rem;
+}
+
+.lista-opiniones {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	margin: 5px 0;
+	padding: 10px 0;
+	box-sizing: border-box;
+	border-bottom: 1px solid gainsboro;
+
+}
+
+.lista-opiniones > div {
+	flex-wrap: wrap;
+
+}
+
+.lista-opiniones > div:nth-child(1) {
+	flex-basis: 30%;
+	border-right: 1px solid gainsboro;
+    text-align: center;
+
+
+}
+
+.lista-opiniones > div:nth-child(2) {
+	flex-basis: 69%;
+    margin-left: 10px;
+ 
+
+}
+
+.lista-opiniones p:first-of-type {
+	font-weight: bold;
+}
+
+
+/* MONSTRUO PERSONALIZADO */
+
+.datos span {
+    color: red;
+    padding-right: 5px;
+    visibility: hidden;
+}
+
+
+#monstruo-personalizado h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    padding: 5px 0;
+    background: gainsboro;
+}
+
+
+#monstruo-personalizado h1+p {
+    margin: 10px 0;
+}
+
+/* Datos personales */
+
+#monstruo-personalizado .datos > ul {
+    max-width: 700px;
+}
+
+#monstruo-personalizado .datos {
+    margin-bottom: 20px;
+}
+
+#monstruo-personalizado fieldset > div li {
+	line-height: 30px;
+	display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+#monstruo-personalizado .datos li > label {
+    flex-basis: 40%;
+    text-align: left;
+}
+
+#monstruo-personalizado .datos li > input, #monstruo-personalizado .datos li > select {
+    flex-basis: 60%;
+}
+
+/* Selección partes */
+
+#monstruo-personalizado .checkbox > div {
+    margin: 20px 0;
+}
+
+#monstruo-personalizado .checkbox ul {
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+#monstruo-personalizado .checkbox > div > div {
+   text-align: center;
+}
+
+#monstruo-personalizado .checkbox li > input[type="checkbox"] {
+	margin-right: 10px;
+}
+
+#monstruo-personalizado .checkbox p {
+	margin-bottom: 10px;
+}
+
+#monstruo-personalizado fieldset textarea {
+	resize: none;
+	box-sizing: border-box;
+	width: 100%;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.terminos {
+    margin-bottom: 10px;
+}
+
+.terminos span {
+    visibility: hidden;
+    color: red;
+}
+
+.mensaje-aviso p {
+    padding: 10px 0;
+    color: red;
+
+}
+
+/* PÁGINA DE CATEGORÍA */
+
+#pagina-categoria .lista-productos {
+    margin: 20px 0;
+}
+
+#pagina-categoria .lista-productos li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px gainsboro solid;
+}
+
+#pagina-categoria .lista-productos h3 {
+    font-size: 1.1rem;
+    padding: 10px 0;
+}
+
+#pagina-categoria .img-container {
+    max-width: 80%;
+}
+
+/* POPUP */
+
+#popup {
+    display: none;
+    z-index: 3;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.5;
+    top: 0;
+    left: 0;
+    background: white;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    transform: translate(0, -50%);
+    width: 100%;
+    text-align: center;
+    padding: 50px 10px;
+    box-sizing: border-box;
+    border: 5px grey solid;
+    background: #594057;
+    z-index: 4;
+    
+}
+
+.popup>div {
+    background: gainsboro;
+    padding: 30px;
+    border: #8daf73 5px solid;
+
+}
+
+.popup p {
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+.popup .cerrar {
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+
+
+/*========================================= RESPONSIVE (MOBILE FIRST) ====================================== */
+
+/* BIG PHONES */
+
+@media only screen and (min-width: 414px) {
+    #monstruopedia li {
+        flex-basis: 33%;
+    }
+
+    #blog {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #blog h2 {
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+
+    #blog article {
+        flex-basis: 49%;
+    }
+
+    .footer-links .columnas {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .footer-links .columnas > div {
+        flex-basis: 50%;
+    }
+
+    
+    /* Monstruo personalizado */
+
+    #monstruo-personalizado .checkbox ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    #monstruo-personalizado .checkbox ul::after {
+        content: "";
+        flex: auto;
+      }
+
+    #monstruo-personalizado .checkbox li {
+        flex-basis: 50%;
+    }
+
+    #monstruo-personalizado form:last-child {
+        text-align: center;
+    }
+
+
+
+
+}
+
+/* TABLETS */
+
+@media only screen and (min-width: 500px) {
+
+    .pre-navigation, .contenedor {
+        width: 85%;
+        max-width: 1600px;
+    }
+
+    .contenedor {
+        margin: 10px auto;
+    }
+
+    .newsletter .form-content {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+        
+    .newsletter .form-content > div:nth-child(1) {
+        flex-basis: 28%;
+    }
+
+    .newsletter .form-content > div:nth-child(2) {
+        flex-basis: 20%;
+        justify-content: space-evenly;
+    }
+
+    .newsletter .form-content > div:nth-child(3) {
+        flex-basis: 30%;
+    }
+
+
+
+
+    /* Monstruo personalizado */
+
+    #foto-producto {
+        max-width: 50%;
+    }
+
+    .lista-opiniones > div:nth-child(1) {
+        flex-basis: 20%;
+    }
+
+    /* Página de categoría */
+
+    #pagina-categoria .lista-productos ul {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+    }
+
+    #pagina-categoria .lista-productos ul a {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        min-height: inherit;
+    }
+
+    #pagina-categoria .lista-productos ul > li {
+        flex-basis: 29%;
+        min-height: 300px;
+        margin: 10px 3px 0px;
+    }
+
+    #pagina-categoria .lista-productos ul::after {
+        content: "";
+        flex: auto;
+      }
+
+    #pagina-categoria .lista-productos ul article {
+        display: flex;
+        flex-flow: column;
+        justify-content: space-between;
+        min-height: inherit;
+    }
+
+    #pagina-categoria .lista-productos h3 {
+        padding-top: 40px;
+    }
+
+    /* Página de producto */
+
+    .variedades-producto .lista-carrito > div:nth-child(1) {
+        flex-basis: 8%;
+    }
+
+    .variedades-producto .lista-carrito > div:nth-child(2) {
+        flex-basis: 50%;
+    }
+
+    .variedades-producto .lista-carrito > div:nth-child(3) > p {
+        display: inline-block;
+    }
+
+    /* Newsletter*/
+    .footer-links .columnas > div {
+        flex-basis: 23%;
+    }
+
+}
+
+/* DESKTOP */
+
+@media only screen and (min-width: 880px) {
+    /*#wrapper {
+      max-width: 1000px;
+      margin: 0px auto;
+      box-shadow: 15px 0 40px 0 rgba(103,58,183,.27), -15px 0 40px 0 rgba(103,58,183,.27);
+      
+    }*/
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    .migas {
+        font-size: 1rem;
+    }
+
+
+    /* MEGA MENU */
+
+    .navigation {
+        display: flex;
+        align-items: center;
+        padding: 0;
+        /*position: relative;*/
+        justify-content: space-between;
+        margin: 0 auto;
+        background: #8daf73;
+        max-width: 88%;
+    }
+
+    .nav-menu {
+        margin-right:25px;
+        padding:0px;
+        list-style:none;
+        line-height:normal;
+        font-size:0;
+    }
+
+    .nav-menus-wrapper {
+        flex-basis: 80%;
+
+    }
+
+    .nav-search {
+        flex-basis: 20%;
+        text-align: right;
+        padding: 0 10px;
+
+    }
+
+    .align-to-right {
+        display: flex;
+        float: none;
+    }
+
+    .nav-menu>li.focus>a{background: #7a9764;}
+
+    #carousel {
+        max-width: 80%;
+        margin: 0 auto;
+    }
+
+    .product-slider .glide__arrow--right {
+        right: -1rem;
+    }
+
+    .product-slider .glide__arrow--left {
+        left: -1rem;
+    }
+
+    /* MONSTRUOPEDIA */
+
+    #monstruopedia li {
+        flex-basis: 25%;
+    
+    }
+
+    /* BLOG */
+
+    #blog > article {
+        flex-basis: 31%;
+    }
+
+    /* NEWSLETTER */
+/*
+    .newsletter .opciones-newsletter {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+*/
+    .newsletter .form-content > div:nth-child(1) {
+        flex-basis: 30%;
+    }
+
+    /* PÁGINA CONTACTO */
+
+    #contacto h1 {
+        text-align: left;
+    }
+
+    #contacto > section {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #contacto > section > div {
+        flex-basis: 49%;
+    }
+
+    /* Monstruo personalizado */
+
+    #monstruo-personalizado .checkbox li {
+        flex-basis: 33.3%;
+    }
+
+    /* Página de categoría */
+
+    #pagina-categoria .lista-productos ul > li {
+       flex-basis: 21%;
+      /* min-height: 320px;*/
+       
+ 
+    }
+
+    /* Página de producto */
+
+    #pagina-producto .descripcion {
+        margin: 20px 0;
+    }
+
+    #pagina-producto .descripcion p {
+        margin: 20px 0;
+    }
+
+    #pagina-producto .info-producto > p {
+        margin: 20px 0;
+    }
+
+    #pagina-producto .descripcion h2, #pagina-producto .descripcion h3 {
+        text-align: left;
+    }
+
+    #pagina-producto #ficha > div:first-child {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #pagina-producto #foto-producto {
+        flex-basis: 42%;
+    }
+
+    #pagina-producto .info-producto {
+        flex-basis: 49%;
+    }
+
+    /* Popup */
+
+    .popup {
+    padding: 20px 10px;
+
+    }
+
+
+  }

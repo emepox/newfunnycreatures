@@ -1,0 +1,72 @@
+MEMORIA DEL PROYECTO
+
+Aquí voy a explicar qué es lo que hecho en este proyecto.
+Aproveché el proyecto final de HTML/CSS y lo mejoré haciéndolo mobile first y poniéndole javaScript.
+
+Estos eran los requerimentos que se pedían:
+
+
+
+Utilización de Estructuras de datos (arrays, objetos)
+-------------------------------------------------------
+Todo mi proyecto se basa en esto. La web es un eCommerce que se alimenta de productos alojados en un json. Cada producto es un objeto con otros objetos y arrays.
+Los sliders, las páginas de categoría y las páginas de producto funcionan llamando a ese json y filtrando los resultados por tipo de página. En el caso de las categorías, se filtra por el ID de la página, que corresponde a cada categoría. Lo mismo para los productos, el ID de la página es el ID del producto en el json.
+
+
+
+
+Uso de eventos: mouseover, blur, click y scroll (como mínimo)
+----------------------------------------------------------------------
+He puesto mouseover en la página de producto, en las variedades. Cuando pasa por encima se activa el borde de la caja.
+El blur lo he puesto en los formularios, cada vez que hay blur, se activa la validación de los campos.
+Hay varios eventos de click, uno de ellos es el que se activa cuando se hace click en Añadir al carrito, esto hace que aparezca un mensaje de confirmación y un número en el icono del carrito, que representa la cantidad de productos que se han añadido al carrito.
+Para el evento de scroll he hecho que hacia la mitad de la página aparezca un popup.
+
+
+
+Mejora y Validación de formularios
+-----------------------------------
+Hay tres formularios en la web: 
+- El del footer, para registrarse en la newsletter
+- El de la página de contacto
+- El de hacerse un monstruo personalizado
+En todos he puesto validación; no se pueden enviar a menos que todos los campos estén llenos, y estos obedezcan a un patrón de regex.
+
+
+
+Cambios en estilo desde programación
+-------------------------------------
+Hay varios casos de cambio de estilo en los eventos.
+Por ejemplo, para la validación de los formularios, hago aparecer mensajes de aviso y coloreo los bordes de los inputs de rojo.
+Para el número de productos en el icono del carrito, también le pinto el fondo de rojo al hacer click en Añadir al carrito.
+
+
+
+
+Uso de efectos para dar interactividad y dinamismo a la página.
+---------------------------------------------------------------
+La interactividad está en los sliders, se pueden desplazar a gusto del usuario.
+
+
+
+
+Integración de plugins JQuery
+-----------------------------
+He integrado dos plugins: uno para los sliders y otro para el menú.
+
+
+
+Ajax
+------
+Las llamadas al jason están hechas en Ajax, todos los elementos de la página de producto (imagen, nombre, precios, variedades, opiniones, descripciones...) se cargan dinámicamente con llamadas al json.
+
+y también la carga del header y el footer, para no tener que repetir código en todas las páginas.
+
+
+
+
+Utilizar servicios externos mediante API's (twiteer, Flickr, GoogleMaps, Google Calendar, etc...)
+-----------------------------------------------------------------------
+He usado la API de un servicio de mapas para integrar el mapa en la página de contacto.
+
+

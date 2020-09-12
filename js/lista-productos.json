@@ -1,0 +1,543 @@
+[{
+    "id": 0,
+    "nombre": "Cráneo de draconino",
+    "tipo": ["monstruos", "carnivoros", "terrestres", "voladores", "cabeza"],
+    "descripcionCorta": "Cráneo completo de Draconino, limpio; no incluye cerebro. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>Auténtico cráneo de dragón</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Dragón Dorado",
+        "nombreLatin": "Draconia Regex",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Escamanteso Venenoso",
+        "nombreLatin": "Heloderma Horribilis",
+        "extraPrecio": 2
+        }, {
+        "nombre": "Dinodragón Esmeralda",
+        "nombreLatin": "Arthrobrontochloro Corpulentus",
+        "extraPrecio": 3
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 4,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 5,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 3,
+        "titulo": "Le pongo 3 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 4,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/craneo-draconino.png",
+    "precio": 2345,
+    "descuento": 5,
+    "popularidad": 1,
+    "url": "producto.html"
+  }, {
+
+    "id": 1,
+    "nombre": "Manos de topo",
+    "tipo": ["alimento", "carnivora"],
+    "descripcionCorta": "Manos de topo regorditas. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>Comida para carnívoros o manos para ensamblar</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Molito común",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Topillo rechoncho",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Topo dorado",
+        "extraPrecio": 3
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 3,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 2,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 2,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 4,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/topo.png",
+    "precio": 15,
+    "descuento": 0,
+    "popularidad": 1,
+    "url": "producto.html"
+  }, {
+
+    "id": 2,
+    "nombre": "Quijada de lupino",
+    "tipo": ["monstruos", "carnivoros", "terrestres", "cabeza"],
+    "descripcionCorta": "Mandíbula completa de lupino. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>Fuertes mordiscos garantizados</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Lupo común",
+        "nombreLatin": "Lupo lupo",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Bolverino antártico",
+        "nombreLatin": "Lupo gelidus",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Lobizón de los bosques",
+        "nombreLatin": "Licantropo canino",
+        "extraPrecio": 2
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 1,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 1,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 1,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 1,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/lupino-cabeza.png",
+    "precio": 250,
+    "descuento": 1,
+    "popularidad": 1,
+    "url": "producto.html"
+  }, {
+
+    "id": 3,
+    "nombre": "Cráneo de hominino",
+    "tipo": ["monstruos", "omnivora", "terrestres", "cabeza"],
+    "descripcionCorta": "Cráneo completo de hominino, limpio, con mandíbula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>La base para una buena cabeza</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Mono inferior",
+        "nombreLatin": "Lorem Ipsum",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Macaco dentudo",
+        "nombreLatin": "Lorem Ipsum",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Manducante",
+        "nombreLatin": "Lorem Ipsum",
+        "extraPrecio": 4
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 3,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 5,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 4,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 5,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/craneo-hominino.png",
+    "precio": 2345,
+    "descuento": 7,
+    "popularidad": 1,
+    "url": "producto.html"
+  }, {
+
+    "id": 4,
+    "nombre": "Acuario robusto",
+    "tipo": ["material", "contencion", "acuaticos"],
+    "descripcionCorta": "Acuario de excelente calidad. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>Contención para criaturas acuáticas</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Cristal normal",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Cristal doble",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Cristal doble reforzado",
+        "extraPrecio": 2
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 5,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 5,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 4,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 5,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/acuario.png",
+    "precio": 2345,
+    "descuento": 5,
+    "popularidad": 0,
+    "url": "producto.html"
+  }, {
+
+    "id": 5,
+    "nombre": "Ala de pollo",
+    "tipo": ["alimento", "carnivora"],
+    "descripcionCorta": "Alitas de pollo a granel. Alimento nutritivo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2> Pollos criados en libertad</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Pollitos",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Gallitos",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Gallifantes",
+        "extraPrecio": 2
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 1,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 2,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 2,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 3,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/pollo.png",
+    "precio": 2345,
+    "descuento": 2,
+    "popularidad": 1,
+    "url": "producto.html"
+  }, {
+
+    "id": 6,
+    "nombre": "Carne de molusco",
+    "tipo": ["alimento", "carnivora"],
+    "descripcionCorta": "Restos de carne de molusco. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>Casquería gomosa</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Caracol Espiroso",
+        "nombreLatin": "Draconia Regex",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Baboso Rayado",
+        "nombreLatin": "Heloderma Horribilis",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Pulposo con Tentáculos",
+        "nombreLatin": "Arthrobrontochloro Corpulentus",
+        "extraPrecio": 3
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 3,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 4,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 4,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 2,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/molusco.png",
+    "precio": 2345,
+    "descuento": 5,
+    "popularidad": 0,
+    "url": "producto.html"
+  }, {
+
+    "id": 7,
+    "nombre": "Cadenas robustas",
+    "tipo": ["material", "contencion"],
+    "descripcionCorta": "Cadenas robustas para contener criaturas desobedientes. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>La seguridad es lo primero</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Acero",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Acero reforzado",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Hierro forjado",
+        "extraPrecio": 2
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 4,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 5,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 4,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 5,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/cadenas.png",
+    "precio": 2345,
+    "descuento": 0,
+    "popularidad": 1,
+    "url": "producto.html"
+  }, {
+
+    "id": 8,
+    "nombre": "Casquería viscosa",
+    "tipo": ["alimento", "carnivora"],
+    "descripcionCorta": "Restos de entrañas, comida para carnívoros a precio reducido. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>Casquería variada a granel</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Ojos",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Intestinos",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Cerebro",
+        "extraPrecio": 2
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 1,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 2,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 1,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 3,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/casqueria.png",
+    "precio": 23,
+    "descuento": 0,
+    "popularidad": 1,
+    "url": "producto.html"
+  }, {
+
+    "id": 9,
+    "nombre": "Ancas de rana",
+    "tipo": ["alimento", "carnivora"],
+    "descripcionCorta": "Cuartos traseros de rana o anfibio similar. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+    "descripcionLarga": "<h2>Delicatesen anfibia</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+    "variedades": [{
+        "nombre": "Sapo de mar",
+        "extraPrecio": 0
+        }, {
+        "nombre": "Rana Ganchuda",
+        "extraPrecio": 1
+        }, {
+        "nombre": "Metamorfo",
+        "extraPrecio": 3
+        }],
+    "opiniones": 
+    [{
+        "nombre": "Gruntilda",
+        "fecha": "14/09/2019",
+        "puntuacion": 3,
+        "titulo": "Producto muy recomendable",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        }, {
+          "nombre": "Victor F.",
+          "fecha": "21/10/2019",
+          "puntuacion": 5,
+          "titulo": "No tengo ninguna queja",
+          "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Barnabás",
+        "fecha": "02/01/2019",
+        "puntuacion": 4,
+        "titulo": "Le pongo 4 strellas porque me vino con un colmillo roto.",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Gargamel",
+        "fecha": "18/12/2019",
+        "puntuacion": 3,
+        "titulo": "Lo tengo colgado en la pared de casa",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }],
+    "imagen": "./img/rana.png",
+    "precio": 2345,
+    "descuento": 2,
+    "popularidad": 0,
+    "url": "producto.html"
+}, {
+
+  "id": 11,
+  "nombre": "Mocos de pavo",
+  "tipo": ["monstruo", "carnivora", "voladores", "accesorios"],
+  "descripcionCorta": "Colgajos de piel, dan un aspecto grotesco a tus monstruos. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus velit justo, vehicula sed tellus in, posuere dignissim ex.",
+  "descripcionLarga": "<h2>Piel descolgada y arrugada</h2><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium maxime voluptates distinctio pariatur nulla sit error eius et nemo, sint cum voluptatum molestiae, voluptatibus expedita perferendis dignissimos alias quia est?</p><h3>Lorem Ipsum Dolor</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa consectetur similique porro quidem mollitia nobis voluptatum quos animi quas exercitationem quam dignissimos corrupti commodi culpa, dolore earum vero expedita minima!</p>",
+  "variedades": [{
+      "nombre": "Moco de pavo común",
+      "nombreLatin": "Meleagris gallopavo",
+      "extraPrecio": 0
+      }, {
+      "nombre": "Colgajo holgado",
+      "nombreLatin": "Gallopavo magnificus",
+      "extraPrecio": 2
+      }, {
+      "nombre": "Piltrafa descontrolada",
+      "nombreLatin": "Gallifantus terribilis",
+      "extraPrecio": 3
+      }],
+  "opiniones": 
+  [{
+      "nombre": "Gruntilda",
+      "fecha": "14/09/2019",
+      "puntuacion": 4,
+      "titulo": "Producto muy recomendable",
+      "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      }, {
+        "nombre": "Victor F.",
+        "fecha": "21/10/2019",
+        "puntuacion": 5,
+        "titulo": "No tengo ninguna queja",
+        "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }, {
+      "nombre": "Barnabás",
+      "fecha": "02/01/2019",
+      "puntuacion": 3,
+      "titulo": "Le pongo 3 strellas porque me vino con un colmillo roto.",
+      "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }, {
+      "nombre": "Gargamel",
+      "fecha": "18/12/2019",
+      "puntuacion": 4,
+      "titulo": "Lo tengo colgado en la pared de casa",
+      "comentario": "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }],
+  "imagen": "./img/turkey-big.png",
+  "precio": 30,
+  "descuento": 6,
+  "popularidad": 0,
+  "url": "moco-de-pavo.html"
+}]

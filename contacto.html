@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<title>Contacta con nosotros | Funny Creatures</title>
+
+	<!-- METAS -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="title" content="Dr. Stein's Funny Creatures | Partes y Miembros de Monstruo">
+	<meta name="description" content="Tienda de suministros monstruosos. Partes de criaturas preparadas para ensamblar, cocinar o decorar.">
+	<meta name="robots" content="noindex, nofollow">
+
+	<!-- ESTILOS -->
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- Estilos de Assets -->
+	<link rel="stylesheet" href="assets/mega-menu/megamenu.css">
+	<!-- Estilos del mapa -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/css/ol.css" type="text/css">
+
+	<!-- Iconos -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+<div id="wrapper">
+	<!-- BLOQUE HEADER -->
+
+	<header id="header" class="header_area"></header>
+	<main id="contacto" class="contenedor">
+		<div class="migas">
+			<div>
+				<a href="index.html"> home /</a>
+				<a href="#"> contacto /</a>
+			</div>
+			<div><a href="index.html">Volver a la home</a></div>
+		</div>
+		<section>
+			<div>
+				<h1>Contacta con nosotros</h1>
+				<p>Si tienes consultas puedes venir al laboratorio (si lo encuentras), llamar al teléfono (<a href="+666666666"><span class="material-icons">call</span> +666 666 666</a>) o ponerte en contacto mediante el formulario.</p> 
+				<form id="contacto-form" method="post" action="index.php"> 
+					<fieldset>
+						<legend>¿Cómo puedo ayudarte?</legend>
+						<ul>
+							<li>
+								<input type="text" id="name" name="name" placeholder="Tu nombre" aria-label="Nombre" >
+							</li>
+							<li>
+								<input type="text" id="asunto" name="asunto" placeholder="Asunto" aria-label="Asunto" >
+							</li>
+							<li>
+								<input type="text" id="email" name="email" placeholder="Mail" aria-label="Mail">
+							</li>
+							<li>
+								<textarea id="mensaje" name="mensaje" aria-label="Mensaje" ></textarea>
+							</li>
+						</ul>
+					</fieldset>
+					<div>
+						<div>
+							<span>*</span>
+							<input type="checkbox" id="checkbox" name="checkbox">
+							
+							<label for="checkbox">Acepto los <a href="#">Términos de Uso</a> y la <a href="#">Política de Privacidad.</a></label>
+						</div>
+						<p id="contacto-aviso">Por favor, rellena todos los campos y acepta la política de privacidad.</p>
+						<button class="boton" type="submit" value="submit">Enviar</button>
+					</div>
+				</form>
+			</div>
+			<div>
+				<div id="map" class="map"></div>
+				<!--
+				<div>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3306.807461598285!2d26.023375315938104!3d46.8085799791397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDbCsDQ4JzMwLjkiTiAyNsKwMDEnMzIuMCJF!5e1!3m2!1ses!2ses!4v1555276044468!5m2!1ses!2ses" width="425" height="425" style="border:0" allowfullscreen></iframe>
+				</div>
+				-->
+			</div>
+		</section>	
+	</main>
+	<footer id="footer"></footer>
+</div>
+<script src="js/jquery-3.5.1.js"></script>
+<script src="js/main.js"></script>
+<!--Assets -->
+<script src="assets/carousel-glide/dist/glide.js"></script>
+<!--Mapa -->
+<script src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.4.3/build/ol.js"></script>
+</body>
+</html>
